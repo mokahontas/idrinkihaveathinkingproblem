@@ -13,3 +13,58 @@
  *= require_tree .
  *= require_self
  */
+.jumbotron {
+  background-image: url('http://i.imgur.com/oyGAbE0.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-color: rgb(245, 206, 244) !important;
+  margin-bottom: 0 !important;
+}
+
+.btn, .btn-default {
+  top: 30%;
+  text-align: center;
+  z-index: 10;
+}
+.btn-group {
+  border: 1px solid rgb(245, 206, 244);
+  opacity: 0.8;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  background: rebeccapurple;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { }
